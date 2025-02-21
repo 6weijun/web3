@@ -6,6 +6,7 @@ contract StudentStorage {
         uint id;
         string name;
         uint age;
+        address account;
     }
 
     //动态数组

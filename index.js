@@ -33,15 +33,14 @@ async function init() {
   showBalance('0x70997970C51812dc3A010C7d01b50e0d17dc79C8');
 
   //连接合约
-  const contact_address = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512';
+  const contact_address = abi.networks['31337'].address;
+  debugger;
   const studentStorage = new web3.eth.Contract(abi.abi, contact_address);
 
   const getList = async function () {
     const studentList = await studentStorage.methods.getDate().call();
     console.log('studentStorage2:', studentList);
   }
-  const kk = meg.sender();
-  debugger;
   getList()
   const data = await studentStorage.methods.addList('luqiushi', 39).send({
     from: '0x70997970C51812dc3A010C7d01b50e0d17dc79C8'
