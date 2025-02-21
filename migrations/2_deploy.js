@@ -1,6 +1,6 @@
 
 
-const contacts = artifacts.require('StudentStorage.sol');
+const contacts = artifacts.require('LWB.sol');
 
 module.exports = function (deployer) {
   deployer.deploy(contacts);
