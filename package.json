@@ -11,7 +11,7 @@
     "truffleCompile": "truffle compile",
     "truffleMigrate": "truffle migrate"
   },
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",

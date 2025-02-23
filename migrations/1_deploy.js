@@ -2,6 +2,6 @@
 
 const contacts = artifacts.require('StudentStorage.sol');
 
-module.exports = function (deployer) {
-  deployer.deploy(contacts);
+module.exports = async function (deployer) {
+  await deployer.deploy(contacts);
 }
