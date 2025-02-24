@@ -13784,12 +13784,12 @@
     "31337": {
       "events": {},
       "links": {},
-      "address": "0x4826533B4897376654Bb4d4AD88B7faFD0C98528",
-      "transactionHash": "0x33630d59f069346aca780926d18cf3f07301e80c8162b362e7d20cdde1696b46"
+      "address": "0x04C89607413713Ec9775E14b954286519d836FEf",
+      "transactionHash": "0xc9d33cdb92d9015820200d8c6985ed01f41e84da462c01c69779070e59372595"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-02-23T12:19:56.045Z",
+  "updatedAt": "2025-02-23T13:09:06.558Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

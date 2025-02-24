@@ -15,22 +15,17 @@ module.exports = async function (callback) {
   const lwb = await Contacts.deployed();
   const exchange = await Exchange.deployed();
 
-  //eth充值
-  await exchange.depositEther({
-    from: accounts[0],
-    value: toWei(10)
-  });
+  //eth withdraw
+  // await exchange.withdrawEther(toWei(1),{
+  //   from: accounts[0],
+  // });
   const res = await exchange.tokens(ETHER_ADDRESS, accounts[0]);
-  console.log('eth币数量', fromWei(res));
+  console.log('提取5 eth之后还剩', fromWei(res)); 
 
-  //lwb充值
-  await lwb.approve(exchange.address, toWei(100000), {
-    from: accounts[0]
-  });
-  await exchange.depositLWB(lwb.address, toWei(100000), {
+  await exchange.withDrawLwb(lwb.address, toWei(5000), {
     from: accounts[0]
   })
   const res1 = await exchange.tokens(lwb.address, accounts[0]);
-  console.log('lwb数量', fromWei(res1));
+  console.log('提取5000lwb之后还剩', fromWei(res1));
   callback();
 };

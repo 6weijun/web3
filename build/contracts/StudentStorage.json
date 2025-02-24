@@ -10562,12 +10562,12 @@
     "31337": {
       "events": {},
       "links": {},
-      "address": "0x70e0bA845a1A0F2DA3359C97E0285013525FFC49",
-      "transactionHash": "0xbe0359614dd0ebc39b792adb9461aeed73e4d6469d5d012ba48f60cecf7e8fd7"
+      "address": "0xdbC43Ba45381e02825b14322cDdd15eC4B3164E6",
+      "transactionHash": "0xfeb28f49e0ef243509d0e44fb259cd534871f02862a0b6e36b3a9fe016a86272"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-02-23T12:19:55.987Z",
+  "updatedAt": "2025-02-23T13:09:06.498Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
